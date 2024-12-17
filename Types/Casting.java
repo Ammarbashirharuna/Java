@@ -11,5 +11,9 @@ public class Casting {
     String j = "10";
     int i = Integer.parseInt(j) + 5;
     System.out.println(i);
+    //  converting a string to a double
+    String k = "10.1";
+    double d = Double.parseDouble(k) + 5;
+    System.out.println(d);
     }
 }
