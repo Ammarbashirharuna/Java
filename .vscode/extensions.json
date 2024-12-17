@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "vscjava.vscode-java-pack",
+        "visualstudioexptteam.vscodeintellicode",
+        "formulahendry.code-runner",
+        "dzhavat.bracket-pair-toggler",
+        "esbenp.prettier-vscode",
+        "tabnine.tabnine-vscode"
+    ]
+}
