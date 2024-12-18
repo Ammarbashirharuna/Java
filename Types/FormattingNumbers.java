@@ -1,3 +1,4 @@
+package Types;
 import java.text.NumberFormat;
 public class FormattingNumbers {
     public static void main(String[] args) {
