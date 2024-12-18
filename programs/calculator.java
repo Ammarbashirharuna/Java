@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class calculator {
     public static void main(String[] args) {
-        System.out.println("Welcome t my calculator");
+        System.out.println("Welcome to my calculator 🥰🥸😂");
         System.out.println("1. Addition");
         System.out.println("2. Subtraction");
         System.out.println("3. Multiplication");
@@ -28,10 +28,20 @@ public class calculator {
         else if (choice == 2) {
             System.out.print("Enter first number ");
             int num1 = input.nextInt();
-            System.out.print("Enter second number");
+            System.out.print("Enter second number 🧊");
             int num2 = input.nextInt();
             int sum = num1 - num2;
             System.out.println("the Subtraction of your numbers is " + sum);
+
+        }
+        else if (choice == 3) {
+            System.out.print("Enter first number ");
+            int num1 = input.nextInt();
+            System.out.print("Enter second number ");
+            int num2 = input.nextInt();
+            int sum = num1 * num2;
+            System.out.println("the Multiplication of your numbers is " + sum);
+
             
         }
     }
