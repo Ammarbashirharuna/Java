@@ -30,8 +30,8 @@ public class calculator {
             int num1 = input.nextInt();
             System.out.print("Enter second number 🧊");
             int num2 = input.nextInt();
-            int sum = num1 - num2;
-            System.out.println("the Subtraction of your numbers is " + sum);
+            int Subtraction = num1 - num2;
+            System.out.println("the Subtraction of your numbers is " + Subtraction );
 
         }
         else if (choice == 3) {
@@ -39,9 +39,16 @@ public class calculator {
             int num1 = input.nextInt();
             System.out.print("Enter second number ");
             int num2 = input.nextInt();
-            int sum = num1 * num2;
-            System.out.println("the Multiplication of your numbers is " + sum);
+            int multiply = num1 * num2;
+            System.out.println("the Multiplication of your numbers is " + multiply);
 
+        }
+        else if (choice == 4) {
+            System.out.print("Enter your first number ");
+            int num1 = input.nextInt();
+            System.out.print("Enter your second number ");
+            int num2 = input.nextInt();
+            int Division = num1 / num2;
             
         }
     }
