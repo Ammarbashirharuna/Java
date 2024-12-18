@@ -25,5 +25,14 @@ public class calculator {
             System.out.println("the sum of your numbers is " + sum);
 
         }
+        else if (choice == 2) {
+            System.out.print("Enter first number ");
+            int num1 = input.nextInt();
+            System.out.print("Enter second number");
+            int num2 = input.nextInt();
+            int sum = num1 - num2;
+            System.out.println("the Subtraction of your numbers is " + sum);
+            
+        }
     }
 }
