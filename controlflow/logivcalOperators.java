@@ -6,8 +6,9 @@ public class logivcalOperators {
         boolean isWarm = temprature > 20 && temprature < 30;
         System.out.println(isWarm);
         boolean hasHighincome = true;
-        boolean hasCredit = true;
-        System.out.println(hasHighincome || hasCredit);
+        boolean hasGoodCredit = true;
+        boolean hasCreminalRecord = false;
+        System.out.println((hasHighincome || hasGoodCredit) && !hasCreminalRecord);
 
     }
 }
