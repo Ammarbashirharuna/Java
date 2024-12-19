@@ -50,11 +50,11 @@ public class calculator {
             } else if (choice == 5) {
                 break;
 
-            }
-            else {
+            } else {
                 System.out.println("opps invalid choice please Enter a valid option!!");
             }
         }
+        
 
     }
 }
