@@ -6,6 +6,8 @@ public class comparisonOperators {
         System.out.println(isAdult);
         boolean isYoung = 13 <= 18;
         System.out.println(isYoung);
-
+        int x = 40;
+        int y = 20;
+        System.out.println(x == y);
     }
 }
