@@ -1,5 +1,4 @@
 package controlflow;
-
 import java.util.Scanner;
 
 public class whileLoops {
@@ -11,6 +10,15 @@ public class whileLoops {
             inpute = input.next();
             System.out.println(inpute);
        }
-        input.close();
+       input.close();
+// trying to create  another scanner and while loops
+       Scanner collect = new Scanner(System.in);
+       int num1 = 3;
+       while (num1 != 3) {
+           System.out.print("Enter a number to check: ");
+           num1 = collect.nextInt();
+           System.out.println(num1);
+       }
+       collect.close();
     }
 }
