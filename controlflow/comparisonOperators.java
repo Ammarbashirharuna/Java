@@ -9,5 +9,8 @@ public class comparisonOperators {
         int x = 40;
         int y = 20;
         System.out.println(x == y);
+        int first = 550;
+        int second = 455;
+        System.out.println(first > second);
     }
 }
