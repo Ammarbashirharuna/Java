@@ -12,7 +12,7 @@ public class switchStatement {
                 break;
         
             default:
-                
+                System.out.println("i can't identified you please");
         }
     }
 }
