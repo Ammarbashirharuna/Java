@@ -8,5 +8,6 @@ public class IncrementDecrement {
         int numberdec = 40;
         System.out.println(numberdec--);
         System.out.println(numberdec);
+     
     }
 }
