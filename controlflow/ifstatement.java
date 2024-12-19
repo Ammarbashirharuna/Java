@@ -13,7 +13,7 @@ public class ifstatement {
              System.out.println("Cold day");
          // simplfying if else statement
          int income = 120_000;
-         boolean hasHighincome = income > 100_000;
+         boolean hasHighincome = (income > 100_000);
          System.out.println(hasHighincome);
         
     }
