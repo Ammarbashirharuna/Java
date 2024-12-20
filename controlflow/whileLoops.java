@@ -27,7 +27,8 @@ public class whileLoops {
     while(!admin.equals("Ammar"))
     {
         System.out.print("Enter admin name: ");
-        
+        admin = accept.next();
+        System.out.println(admin);
 
     }
 }
