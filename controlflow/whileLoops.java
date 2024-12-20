@@ -7,9 +7,13 @@ public class whileLoops {
 
         // first loop
         String inpute = "";
-        while (!inpute.equals("quite")) {
+        while (true) {
             System.out.print("Enter Value: ");
             inpute = scanner.next();
+            if (inpute.equals("pass"))
+                continue;
+            if (inpute.equals("quite"))
+                break;
             System.out.println(inpute);
         }
        
