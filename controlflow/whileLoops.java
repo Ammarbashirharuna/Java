@@ -20,15 +20,17 @@ public class whileLoops {
             System.out.println(num1);
         }
         collect.close();
+        Scanner accept = new Scanner(System.in);
+        String admin = "";
+        while(!admin.equals("Ammar"))
+        {
+            System.out.print("Enter admin name: ");
+            admin = accept.next();
+            System.out.println(admin);
+
+        }
+        accept.close();
     }
 
-    Scanner accept = new Scanner(System.in);
-    String admin = "";
-    while(!admin.equals("Ammar"))
-    {
-        System.out.print("Enter admin name: ");
-        admin = accept.next();
-        System.out.println(admin);
-
-    }
+   
 }
