@@ -12,6 +12,6 @@ public class doWhileLoops {
             name = scanner.next();
             System.out.println(name);
         } while (!name.equals("Ammar"));
-        scanner.close();
+       scanner.close();
     }
 }
