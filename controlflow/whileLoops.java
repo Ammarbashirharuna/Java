@@ -9,30 +9,29 @@ public class whileLoops {
         String inpute = "";
         while (!inpute.equals("quite")) {
             System.out.print("Enter Value: ");
-            inpute = input.next();
+            inpute = scanner.next();
             System.out.println(inpute);
         }
        
-        // trying to create  another scanner and while loops
-        Scanner input = new Scanner(System.in);
+        // second loop
         int num1 = 3;
         while (num1 != 3) {
             System.out.print("Enter a number to check: ");
-            num1 = collect.nextInt();
+            num1 = scanner.nextInt();
             System.out.println(num1);
         }
-        collect.close();
-        Scanner accept = new Scanner(System.in);
+       
+//    the third loop
         String admin = "";
         while(!admin.equals("Ammar"))
         {
             System.out.print("Enter admin name: ");
-            admin = accept.next();
+            admin = scanner.next();
             System.out.println(admin);
 
         }
-        accept.close();
+       scanner.close();
     }
-
+     
    
 }
