@@ -8,6 +8,7 @@ public class creatingMethod {
 
     }
 
+    // methods that return no value
     public static void greatUSer(String firstName, String lastName) {
         System.out.println("Hello " + firstName + " " + lastName);
     }
