@@ -17,6 +17,7 @@ public class FizzBuzz {
             System.out.println("Buzz");
         else 
             System.out.println(enteredNumber);
+            System.out.println("the program works correctly");
         
         number.close();
     }
