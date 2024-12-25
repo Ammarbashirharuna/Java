@@ -1,6 +1,6 @@
 public class Employee {
-    public int baseSalary;
-    public int hourlyRate;
+    private int baseSalary;
+    private int hourlyRate;
 
 
     public int calculateWage(int extraHours){
@@ -17,5 +17,13 @@ setter and getters throw exception if the employee salary is not number that abo
     }
     public int getBaseSalary(){
         return baseSalary;
+    }
+
+    public void setHourlyRate(int hourlyRate) {
+        this.hourlyRate = hourlyRate;
+    }
+
+    public int getHourlyRate() {
+        return hourlyRate;
     }
 }
