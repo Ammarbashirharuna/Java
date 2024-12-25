@@ -1,4 +1,7 @@
 package OOP;
+/*
+this is the encapsolation file that hide some data to the main file in the run time
+ */
 
 public class Encapsulation {
     public static void main(String[] args) {

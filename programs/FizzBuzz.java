@@ -17,7 +17,6 @@ public class FizzBuzz {
             System.out.println("Buzz");
         else 
             System.out.println(enteredNumber);
-         am works correctly");
         
         number.close();
     }
