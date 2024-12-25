@@ -24,6 +24,8 @@ public class Main {
         System.out.println(Dog.name + Dog.food);
         Dog.berk();
         var DogTwo = new Dog("bingo", 6, "rice");
+        DogTwo.getInfo("bingo", 23,"beans");
+
 
 
 
