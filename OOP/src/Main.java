@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
         var employee = new Employee();
-        employee.setHourlyRate(50_000);
-        employee.setBaseSalary(10);
+        employee.setBaseSalary(-1);
+        employee.getBaseSalary();
         int wage = employee.calculateWage(10);
         System.out.println(wage);
 //        calling the method from the class
@@ -24,6 +24,9 @@ public class Main {
         Dog.berk();
         var DogTwo = new Dog("bingo", 6, "rice");
         DogTwo.getInfo("bingo", 23,"beans");
+        Dog.setAge(34);
+
+
 
 
 

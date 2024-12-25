@@ -1,6 +1,6 @@
 public class Dog {
     private String name;
-    public int age;
+    private int age;
     public String food;
 
     public Dog(String name, int age, String food){
@@ -8,8 +8,8 @@ public class Dog {
         this.food = food;
         this.name = name;
     }
-    public void setName(String name){
-        System.out.println(name);
+    public void setAge(int age){
+        System.out.println(age);
     }
 
     public void berk(){
