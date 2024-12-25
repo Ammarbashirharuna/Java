@@ -5,6 +5,13 @@ public class Main {
         employee.baseSalary = 20;
         int wage = employee.calculateWage(10);
         System.out.println(wage);
+//        calling the method from the class
+        var emp = new Employee();
+        emp.hourlyRate = 10_000;
+        emp.baseSalary = 10;
+        int wag = emp.calculateWage(30);
+        System.out.println(wag);
+
 
 
 
