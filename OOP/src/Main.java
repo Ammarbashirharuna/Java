@@ -11,6 +11,13 @@ public class Main {
         emp.baseSalary = 10;
         int wag = emp.calculateWage(30);
         System.out.println(wag);
+//      calling another methods from admin class
+        var admin = new Admin();
+        admin.monthSalary = 100;
+        admin.yearlySalary = 500;
+
+        int bonus = admin.adminAllownce(10);
+        System.out.println(bonus);
 
 
 
