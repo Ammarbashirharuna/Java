@@ -9,12 +9,12 @@ public class Dog {
         this.name = name;
     }
 
-    public int dogAge(int age){
-        return age;
-    }
-
     public void berk(){
         System.out.println("Woof");
+    }
+
+    public void getInfo(String name, int age, String food){
+        System.out.println("The Dog name is " + name + "and his food is " + food + "and his age is " + age);
     }
 
 }
