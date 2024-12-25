@@ -19,6 +19,8 @@ public class Main {
         int bonus = admin.adminAllownce(10);
         System.out.println(bonus);
 
+//
+
 
 
 
