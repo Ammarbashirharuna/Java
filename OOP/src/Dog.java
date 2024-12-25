@@ -1,5 +1,5 @@
 public class Dog {
-    public String name;
+    private String name;
     public int age;
     public String food;
 
@@ -7,6 +7,9 @@ public class Dog {
         this.age = age;
         this.food = food;
         this.name = name;
+    }
+    public void setName(String name){
+        System.out.println(name);
     }
 
     public void berk(){

@@ -21,7 +21,6 @@ public class Main {
 
 // accessing Dog class
         var Dog = new Dog("leo", 5, "cake");
-        System.out.println(Dog.name + Dog.food);
         Dog.berk();
         var DogTwo = new Dog("bingo", 6, "rice");
         DogTwo.getInfo("bingo", 23,"beans");
