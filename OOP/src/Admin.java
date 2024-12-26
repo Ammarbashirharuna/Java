@@ -1,9 +1,25 @@
 public class Admin {
-    public int monthSalary;
-    public int yearlySalary;
+    private int monthSalary;
+    private int yearlySalary;
 
 
     public int adminAllownce(   int  adminAllowance){
-        return yearlySalary * monthSalary + adminAllowance ;
+        return getYearlySalary() * getMonthSalary() + adminAllowance ;
+    }
+
+    public int getMonthSalary() {
+        return monthSalary;
+    }
+
+    public void setMonthSalary(int monthSalary) {
+        this.monthSalary = monthSalary;
+    }
+
+    public int getYearlySalary() {
+        return yearlySalary;
+    }
+
+    public void setYearlySalary(int yearlySalary) {
+        this.yearlySalary = yearlySalary;
     }
 }

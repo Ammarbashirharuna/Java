@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
         var employee = new Employee();
-        employee.setBaseSalary(-1);
-        employee.getBaseSalary();
+        employee.setBaseSalary(10);
+        employee.setHourlyRate(20);
         int wage = employee.calculateWage(10);
         System.out.println(wage);
 //        calling the method from the class
@@ -13,8 +13,8 @@ public class Main {
 //        System.out.println(wag);
 //      calling another methods from admin class
         var admin = new Admin();
-        admin.monthSalary = 100;
-        admin.yearlySalary = 500;
+        admin.setMonthSalary(100);
+        admin.setYearlySalary(500);
 
         int bonus = admin.adminAllownce(10);
         System.out.println(bonus);
@@ -36,7 +36,3 @@ public class Main {
 
     }
 
-
-
-
-}

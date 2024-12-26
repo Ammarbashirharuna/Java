@@ -15,7 +15,7 @@ setter and getters throw exception if the employee salary is not number that abo
             throw new IllegalArgumentException("Sorry the employee can not be salary can not be empty");
         this.baseSalary = baseSalary;
     }
-    public int getBaseSalary(){
+    private int getBaseSalary(){
         return baseSalary;
     }
 
@@ -25,7 +25,7 @@ setter and getters throw exception if the employee salary is not number that abo
         this.hourlyRate = hourlyRate;
     }
 
-    public int getHourlyRate() {
+    private int getHourlyRate() {
         return hourlyRate;
     }
 }
