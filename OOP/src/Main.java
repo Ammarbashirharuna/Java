@@ -1,11 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-       /* var employee = new Employee();
-        employee.setBaseSalary(10);
-        employee.setHourlyRate(20);
+        var employee = new Employee(50_000, 10);
         int wage = employee.calculateWage(10);
         System.out.println(wage);
-        */
+
 //        calling the method from the class
 //        var emp = new Employee();
 //        emp.getHourlyRate();
@@ -22,12 +20,15 @@ public class Main {
         */
 
 // accessing Dog class
-        var Dog = new Dog("leo", 5, "cake");
+       /* var Dog = new Dog("leo", 5, "cake");
         Dog.berk();
         var DogTwo = new Dog("bingo", 6, "rice");
         DogTwo.getInfo("bingo", 23,"beans");
         Dog.setAge(34);
 
+        */
+var browser = new Browser();
+browser.navigate();
 
 
 
