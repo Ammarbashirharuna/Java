@@ -9,11 +9,11 @@ public class Browser {
 
     }
 
-    public String sendHttpRequest(String ip) {
+    private String sendHttpRequest(String ip) {
         return "<html></html>";
     }
 
-    public String findIpAddress(String address) {
+    private String findIpAddress(String address) {
         return "127.0.0";
     }
 }
